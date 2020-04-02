@@ -65,7 +65,7 @@
 	export default {
 		computed: {
 			url() {
-				return `${window.location.host}?puzzle=${encode(this.state, this.rowHints, this.ColumnHints)}`
+				return `${window.location.protocol}//${window.location.host}?puzzle=${encode(this.state, this.rowHints, this.ColumnHints)}`
 			}
 		},
 
