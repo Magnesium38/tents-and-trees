@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@sentry/browser": "^5.15.4",
+    "@sentry/integrations": "^5.15.4",
     "core-js": "^3.6.4",
     "lz-string": "^1.4.4",
     "tailwindcss": "^1.2.0",
